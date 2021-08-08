@@ -1,0 +1,263 @@
+
+|| Table of Contents ||
+
+Lesson 1 {
+  Data Types (Li. 5)
+    Boolean (Li. 10)
+    Strings (Li. 12)
+    Symbol  (Li. 14)
+    Number  (Li. 16)
+    Object  (Li. 18)
+}
+
+
+Lesson 2 {
+  Variable Declarations  (Li. 52)
+    Caculations in Javascript (Li. 67)
+    Remainder Operator (Li. 105)
+    Variable Declarations with Let and Const  (Li. 141) 
+}
+
+
+Lesson 3 {
+  Strings (Li. 339)
+    Escaping Literal Quotes in Strings (Li. 348)
+    Concatening Strings with Plus Operators (Li. 375)
+    Contstructing Strings with Variables (Li. 388)
+    Find Length of String (Li. 412)
+    String Immutability (Li. 460)
+    Word Blanks (Li. 473)
+    Create Strings using Template Literals (Li. 492)
+    Methods and Properties of Strings (Li. 573)
+      New Methods  (Li. 597)
+}
+
+
+Lesson 4 {
+  Arrays (Li. 644)
+    Store Multiple Values with Arrays (Li. 648)
+    Nested Arrays (Li. 653)
+    Access Array Data with Indexes (Li. 658)
+    Modify Array Data with Indexes (Li. 668)
+    Access Multi-Dimensional Arrays With Indexes (Li. 680)
+    Manipulate Arrays with push() (Li. 692)
+    Manipulate Arrays with pop() (Li. 703)
+    Manipulate Arrays with shift() (Li. 715)
+    Manipulate Arrays with unshift() (Li. 728)
+    Other Methods and Properties of Array (Li. 749)
+    Manipulate Arrays with sort() (Li. 778)
+    Pushing numbers in arrays using loops (Li. 786)
+    Arrays in ES6 / E2015 (Li. 795)
+      Find and FindIndex Methods (Li. 850)
+    New Method() for Arrays (Li. 878)
+      Array.of() (Li. 880)
+      Array.fill() (Li. 890)
+      Array.copyWithin() (Li. 903)
+
+    In Lesson 8 Javascript Object => Accessing Nested Arrays (Li. 2400)
+}
+  
+
+Lesson 5 {
+  Functions (Li. 941)
+    Passing Values to Function with Arguments (Li. 953)
+    Global and Local Scope in Functions (Li. 969)
+    Global vs. Local Scope in Functions (Li. 986)
+    Return a Value from a Function with Return (Li. 1000)
+    Understanding Undefined Value Returned from a Function (Li. 1015)
+    Assignment with a Returned Value (Li. 1031)
+    Prompt and Alert method (Li. 1044)
+    Stand in Line (Li. 1059)
+    Blocks and IIFEs (Li. 1079)
+}
+
+
+Lesson 6 {
+  Boolean (Li. 1142)
+    Use Conditional Logic with If Statements (Li. 1156)
+    Comparison in Javascript (Li. 1177)
+      With the Equality Operator (Li. 1179)
+      With the Strict Equality Operator (Li. 1199)
+      With the the Inequality Operator (Li. 1237)
+      With the Stict Inequality Operator (Li. 1251)
+      With the Logical and Operator (Li. 1264)
+      With the Greaater Than or Equal To Operator (Li. 1280)
+      With the Less Than Operator (Li. 1296)
+      With the Less Than Or Equal To Operator (Li. 1312)
+      With the Logical and Operator 2 (Li. 1327)
+    Else Statment (Li. 1378)
+    Else If Statements (Li. 1403)
+      Logical Order in If Else Statements (Li. 1418)
+      Chaining If Else Statements (Li. 1438)
+    Switch Statements (Li. 1497)
+    Default Option in Switch Statements (Li. 1530)
+    Switch Case Statements without needing break... (Li. 1575)
+    Multiple Identical Option in Switch Statements (Li. 1599)
+    Returning Boolean Values from Functions (Li. 1635)
+    Returning Early Pattern from Functions (Li. 1654)
+    Conditional (Ternary) Operator (Li. 1714)
+    Use Multiple Conditional (Ternary) Opertors (Li. 1739)
+}
+
+
+Lesson 7 {
+  Iteration (Li. 1783)
+    Iterate with While Loops (Li. 1786)
+    Iterate with For Loops (Li. 1806)
+      Iterate Odd Numbers with a For Loop (Li. 1849)
+      Count Backwards with a For Loop (Li. 1863)
+    Loops Continue & break statements (Li. 1885)
+    Iterate with For of Loop (Li. 1907)
+    String iteration (Li. 1921)
+    Nesting For Loops (Li. 1943)
+    Iterate with Do...While Loops (Li. 1969)
+}
+
+
+Lesson 8 {
+  Javascript Object (Li. 2064)
+    Accessing Object Properties (Li. 2081)
+      With Dot Notation (Li. 2083) 
+      With Bracket Notation (Li. 2103) 
+      With Variables (Li. 2122) 
+    Updating Object Properties (Li. 2139) 
+    Add New Properties to an Object (Li. 2155) 
+    Delete Properties From an Object (Li. 2176) 
+    Using Objects for Lookups (Li. 2193) 
+    Testing Objects for Properties (Li. 2241) 
+    Prevent Object Mutation (Li. 2265) 
+    Object Method (Li. 2275) 
+    Setting property in a Method with the 'this' keyword (Li. 2302) 
+    Manipulating Complex Objects (Li. 2342) 
+    Accessing Nested Objects (Li. 2375) 
+    Accessing Nested Arrays (Li. 2400) 
+    Converting the string to object using json (Li. 2497) 
+    Write Concise Object Literal Declarations (Li. 2516) 
+}
+
+
+Lesson 9 {
+  Arrow Functions (Li. 2562)
+    Use Arrow Functions to Write Concise Anonymous Functions (Li. 2565)
+    Write Arrow Function with Parameters (Li. 2589)
+    Write Higher Order Arrow Functions (Li. 2609)
+    Write Higher Order Arrow Functions 2 (Li. 2681)
+    Arrow Functions: Lexical `This` Keyword (Li. 2708)
+}
+
+
+Lesson 10 {
+  First Class Functions (Li. 2814)
+    Passing Functions As Arguments (Li. 2817)
+    Functions Returning Functions (Li. 2885)
+}
+
+
+Lesson 11 {
+  Object and Functions (Li. 2962)
+    Inheritance And Prototype Chain (Li. 2965)
+    Object.create  (Li. 3075)
+    Primitives Vs. Objects  (Li. 3107)
+}
+
+
+Lesson 12 {
+  Closures (Li. 3179)
+}
+
+
+Lesson 13 {
+  Bind, call and Apply (Li. 3263)
+    CALL (Li. 3274)
+    BIND (Li. 3308)
+      Some real life Use of bind (Li. 3381)
+    APPLY (Li. 3407)
+}
+
+
+Lesson 14 {
+  Generate Random Fractions (Li. 3499)
+    Math.random (Li. 3502)
+    Generate Random Whole Numbers (Li. 3515)
+    Generate Random Whole Number within a Range (Li. 3531)
+    Use the parseInt Function (Li. 3546)
+      Use the parseInt Function with a Radix (Li. 3558)
+}
+
+
+Lesson 15 {
+  Destructuring (Li. 3600)
+    * in Arrays (Li. 3606)
+    * in Objects (Li. 3629)
+    Destructuring Assignment with Nested Objects (Li. 3729)
+    Use Destructuring Assignment to Assign... (Li. 3747)
+    Use Destructuring Assignment with the Rest Operator (Li. 3768)
+    Use Destructuring Assignment to Pass an Object... (Li. 3786)
+}
+
+
+Lesson 16 {
+  Spread Operator (Li. 3844)
+    Arrays (Li. 3847)
+    Objects (Li. 3908)
+    Using spread operator to copy... (Li. 3935)
+    Using spread operator in Math.min or max (Li. 3959)
+    For deeply-nested array (Li. 3984)
+}
+
+
+Lesson 17 {
+  The Rest Parameters (Li. 4034)
+    * with Function Parameters (Li. 4044)
+}
+
+
+Lesson 18 {
+  Default Parameters (Li. 4157)
+}
+
+
+Lesson 19 {
+  Maps (Li. 4246)
+    .set (Li. 4253)
+    .get (Li. 4264)
+    .has (Li. 4267)
+    .clear (Li. 4275)
+    Reasons why Maps are better than Objects (Li. 4295)
+}
+
+
+
+
+
+Classes js
+
+Extra class {
+  * setTimeout Function (Li. 34)
+  * setInterval Function (Li. 219)
+  * Reduce Method (Li. 354)
+  * Handling Errors in Javascript (Li. 575)
+  * Javascript Date Object (Li. 661)
+}
+
+
+
+
+Resources For Illustration
+1.  Undraw
+  https://undraw.co/illustrations
+
+2.  Drawkit
+  https://www.drawkit.io/
+
+3.  icon8
+  https://icons8.com/illustrations
+
+4.  Lukas zadam
+  https://lukaszadam.com/illustrations
+
+5.  Humaaans
+  https://humaaans.com/
+
+6.  Iconfinder
+  https://www.iconfinder.com/

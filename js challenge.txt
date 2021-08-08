@@ -1,0 +1,39 @@
+const cont = document.querySelector('.container')
+    const parH = 33
+    const brickH = 26
+    const brickW = 92
+
+    // Creating bricks
+    let bricks = []
+
+    
+    function createBricks() {
+      const cont_inn = document.createElement('div')
+      cont_inn.setAttribute('class', 'inner')
+      cont.append(cont_inn)
+
+      for (var i = 0; i < 130; i++) {
+        let child = document.createElement('div')
+        child.setAttribute('class', 'child')
+
+        let ro = Math.floor(Math.random() * 15) + 1
+        let col = Math.floor(Math.random() * 11) + 1
+        
+        // Each Brick Props
+        let brick = {
+          name: child,
+          x: 0 + (brickW * (col - 1)),
+          y: parH + (brickH * (ro - 1))
+        }
+        child.style.gridRow = ro;
+        child.style.gridColumn = col;
+
+        // Append brick
+        cont_inn.append(child)
+        
+        // bricks
+        bricks.push(brick)
+      }
+    }
+
+    createBricks()

@@ -1,0 +1,15 @@
+Strings
+'Methods i don't yet understand'
+
+i) .charCodeAt ???
+ii)   .fromCharCode
+
+
+
+
+
+Array
+'Methods i don't yet understand'
+
+i) entries
+ii) keys
