@@ -1,21 +1,21 @@
 
+function phoneticLookup(val) {
+  let result = "";
 
-let dom = document.querySelector('.statement');
+  const lookup = {
+    "alpha": "Adams",
+    "bravo": "Boston",
+    "charlie": "Chicago",
+    "delta": "Denver",
+    "echo": "Easy",
+    "foxtrot": "Frank"
+  }
 
-let xander = 'Get ready!!';
-
-
-function getSet() {
-  return new Promise((resolve, reject) => {
-    setTimeout(() => {
-      resolve('All set');
-    }, 500);
-  })
+  result = lookup[val];
+  return result;
 }
 
-async function ready() {
-  xander = await getSet();
-  dom.textContent = xander;
-}
 
-ready()
+let oneChild = phoneticLookup("bravo");
+
+console.log(oneChild);
