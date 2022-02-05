@@ -216,7 +216,7 @@ function checkScope() {
   "use strict"
   var i = '"function scope"';
   if (true) { anything in here --> {} is a block quote
-    i = '"block scope"';
+    var i = '"block scope"';
     console.log("Block scope i is; ", i);
   }
   here i equals block scope
@@ -552,16 +552,16 @@ I am ${person.age} years old.`;
 
 setup
 const result = {
-    success: ["max-length", "no-amd", "prefer-arrow-functions"],
-    failure: ["no-var", "var-on-top", "linebreak"],
-    skipped: ["id-blacklist", "no-dup-keys"]
+  success: ["max-length", "no-amd", "prefer-arrow-functions"],
+  failure: ["no-var", "var-on-top", "linebreak"],
+  skipped: ["id-blacklist", "no-dup-keys"]
 };
 function makeList(arr) {
-    const resultDisplayArray = [];
-    for (let i = 0; i < arr.length; i++) {
-        resultDisplayArray.push(`<li class="text-warning">${arr[i]}<li>`)
-    }
-    return resultDisplayArray;
+  const resultDisplayArray = [];
+  for (let i = 0; i < arr.length; i++) {
+    resultDisplayArray.push(`<li class="text-warning">${arr[i]}<li>`)
+  }
+  return resultDisplayArray;
 }
 
 const resultDisplayArray = makeList(result.failure);
@@ -1008,7 +1008,7 @@ this return statement
 
 only change the code below
 console.log(timesFive(2));
-rr
+
 
 
 
@@ -1071,7 +1071,7 @@ var textArray = [1, 2, 3, 4, 5];
 
 console.log("Before: " + JSON.stringify(textArray));
 console.log(myBabe(textArray, 6));
-console.log("After: " + JSON.stringify(textArray));  more info...?????
+console.log("After: " + JSON.stringify(textArray));
 
 
 
@@ -1161,11 +1161,11 @@ The Key word (if) tells Js to execute the code in the curly braces{} under certa
 
 simple example
 function avengers(endGame) {
-  True
+  // True
   if (endGame) {
     return "Yes, that is true";
   }
-  False
+  // False
   return "No, that is false";
 }
 
@@ -1417,7 +1417,7 @@ console.log(elseIf(8));
 
 Logical Order in If Else Statements...
 
-  When using else if statement order is very important. more practice right here....||||||==-----
+  When using else if statement order is very important. 
 
   Less Than (<) [equals] increase in Number.
   Greater Than (>) [equals] decrease in Number.
@@ -1500,7 +1500,7 @@ instead of using chained (else if) statements you can use a switch statement.
 
 A switch statement can test a value and can have many case statements which define various possible values.
 
-it sign is directly same value as the strict equality sign (===), but not the same.
+it's sign is directly same value as the strict equality sign (===), but not the same.
 
 the break is to make sure it dosen't read any more code besides the one in each case statements.
 
@@ -1676,6 +1676,7 @@ And just in case you are lost it's a card game.
 var count = 0;
 
 function cc(card) {
+  var holdbet = 'Hold';
   switch(card) {
     case 2:
     case 3:
@@ -1693,7 +1694,6 @@ function cc(card) {
       count--; same as count = count - 1;
       break;
   }
-  var holdbet = 'Hold'
   if (count > 0) {
     holdbet = 'Bet';
   }
@@ -1829,7 +1829,7 @@ for (var i = 1; i < 6; i++) {
 }
 console.log(myArray);
 
-we kept pushing(Iterated) (i) 5 different times, and each time we a new digit unto the array, and the end of each pushing(Iterated) we incremented(i++) so it push a larger number into the array(myArray).
+we kept pushing(Iterated) (i) 5 different times, and each time, a new digit is added to the array, and the end of each pushing(Iterated) we incremented(i++) so it push a larger number into the array(myArray).
 
 
 setup
@@ -2063,7 +2063,7 @@ console.log(data);
 
 || Lesson 8 : Javascript Object ||
 
-Object are similar to a raze except but instead of using index to assess data you use properties.
+Object are similar to a arrays except but instead of using index to assess data you use properties.
 
 The properties are anything before the colon.
 
@@ -2185,7 +2185,7 @@ var myDog = {
 };
 
 delete myDog.bark; This deletes the bark property as well as the value.
-delete myDog["friends"]; Also works but the test was conducted by me in case of later errors.
+delete myDog["friends"];
 
 
 
@@ -2249,7 +2249,7 @@ var myObj = {
   "bed": "sleigh"
 };
 
-the function below is made to check if the myObj above have the specific object.
+the function below is made to check if the myObj above have the specific property.
 function checkObj(checkProp) {
   if (myObj.hasOwnProperty(checkProp)) {
     return myObj[checkProp];
@@ -2490,7 +2490,7 @@ updateRecords(1245, "tracks", "music");
 updateRecords(2468, "tracks", "test");
 console.log(updateRecords(5439, "artist", "ABBA"));
 
-more practice here incase you don't remember the basics... ] 2:10:13 endclass..
+more practice here incase you don't remember the basics... ]
 
 
  =========================================
@@ -2516,7 +2516,7 @@ console.log(JSON.parse(students)[1].name);
 Write Concise Object Literal Declarations Using Simple Fields...
 
 
-If you know that you want create and object where the key{name of the block statement in the object} is the same as the variables and the value is the value of the value of the variable.
+If you know that you want create an object where the key{name of the block statement in the object} is the same as the variables and the value is the value of the value of the variable.
 
 Long Method.
 same with the variable
@@ -2628,7 +2628,7 @@ console.log(ages5);
 
 ES6
 Arrow Function with one argument
-let ages6 = years.map(el => 2016 - el);
+let ages6 = years.map(el => 2019 - el);
 console.log(ages6);
 
 
@@ -2895,7 +2895,7 @@ In this Class we created a function[interviewQuestion(job) with job as the param
 
 3}  So now the function[interviewQuestion] returns different functions[questions] base on the application you came for [ using the (if) statement ]. So now meaning the function(s) returned has a Question for you ( in which we used the [console.log] to ask the question in the console )
 
-4}  And if you came for the teacher interview a variable is assigned, that equals the 'interviewQuestion' function with the 'teacher' input like this || variable = interviewQuestion( 'teacher' ) ||
+4}  And if you came for the teacher interview; a variable is assigned that equals the 'interviewQuestion' function with the 'teacher' input like this || variable = interviewQuestion( 'teacher' ) ||
 
 5}  Each of the functions returned has a parameter of name [ function(name) ] Now remember all functions come with parameter(s) :: Anyway the name parameter is there to fill in your name ::
 
@@ -2987,7 +2987,7 @@ var Person = function(name, yearOfBirth, job) {
   this.job = job;
 }
 
-Proving the prototype is a property
+Proving that prototype is a property
 Creating a method using the prototype property
 
 Person.prototype.calculateAge = function() {
@@ -3210,7 +3210,7 @@ interviewQuestion('teacher')('John');
 
 More examples
 function retirement(retirementAge) {
-    var a = ' years left until retirement.';
+  var a = ' years left until retirement.';
   return function(yearOfBirth) {
     var age = 2019 - yearOfBirth;
     console.log((retirementAge - age) + a);
@@ -3391,13 +3391,13 @@ let logger = {
   }
 }
 
-    It could be done like this, the usual method
+  It could be done like this, the usual method
 
 document.querySelector('button').addEventListener('click', function() {
   logger.updateCount()
 })
 
-    But we've had to create an unnecessary anonymous function to allow the this keyword to stand correct in the updataCount() function
+  But we've had to create an unnecessary anonymous function to allow the this keyword to stand correct in the updataCount() function
 
 document.querySelector('button').addEventListener('click', logger.updateCount.bind(logger))
 
@@ -3501,7 +3501,7 @@ SUMMARY!!
 
 Math.random
 
-  There is a simple way to create a random decimal number in Js, it's with the (Math.random function)
+  There is a simple way to create a random decimal number in Js, it's with the (Math.random() function)
 
 easy setup
 function randomFraction() {
@@ -3514,7 +3514,7 @@ console.log(randomFraction());
 
 Generate Random Whole Numbers...
 
-  Often you want a random whole number instead of a random decimal number.. That can be accomplished using (Math.floor)
+  Often you want a random whole number instead of a random decimal number.. That can be accomplished using (Math.floor())
 
 
   this variable (specifically the (Math) part)below is gonna create a whole number from 0 - 19
@@ -3534,7 +3534,7 @@ setup
 Range function
 function randomRange(myMin, myMax) {
 
-    return Math.floor(Math.random() * (myMax - myMin + 1)) + myMin;
+  return Math.floor(Math.random() * (myMax - myMin + 1)) + myMin;
 }
 
 var myRandom = randomRange(5, 15);
@@ -3563,7 +3563,7 @@ Use the parseInt Function with a Radix...
 
 setup
 function binaryNumber(str) {
-    return parseInt(str, 2);
+  return parseInt(str, 2);
 }
 
 console.log(binaryNumber("1111"));
@@ -3662,7 +3662,7 @@ console.log(retirement);
 Another Example
 
 a)
-function addressMaker(city, status) {
+function addressMaker(city, state) {
   const newAddress = {city, state};
   console.log(newAddress);
 }
@@ -3787,7 +3787,7 @@ Use Destructuring Assignment to Pass an Object as a Function's Parameters...
 
 You can use destructuring assignment to pass an object as a function's parameter.
 
-this commonly used with API calls, when are getting informtion from an ajax or api request, it will often have a lot more information than what you need and you can use destructuring to get it down to what you need.
+this commonly used with API calls, when are getting information from an ajax or api request, it will often have a lot more information than what you need and you can use destructuring to get it down to what you need.
 
 
 setup
